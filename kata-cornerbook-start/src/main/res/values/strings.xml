@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">kata-cornerbook-start</string>
+    <string name="create_book">Create book</string>
+    <string name="title_book">Title</string>
+    <string name="author_book">Author</string>
+    <string name="description_book">Description</string>
+    <string name="create">Create</string>
+    <string name="error_title_create_book">Please enter the title of the book</string>
+    <string name="error_author_create_book">Please enter the author of the book</string>
+    <string name="error_description_create_book">Please enter the description of the book</string>
+    <string name="no_books_yet">No books yet</string>
+</resources>
