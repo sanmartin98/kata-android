@@ -1,9 +1,8 @@
-package com.cornershop.android.kata.cornerbook.di
+package com.example.di
 
 import android.util.Log
 import com.example.data.commons.DateDeserializer
 import com.example.data.datasource.remote.BookService
-import com.cornershop.android.kata.cornerbook.domain.commons.DomainErrorFactory
 import com.google.gson.GsonBuilder
 import com.jakewharton.retrofit.Ok3Client
 import dagger.Module
@@ -51,11 +50,5 @@ object NetworkModule {
     @Provides
     fun provideBookService(restAdapter: RestAdapter): BookService {
         return restAdapter.create(BookService::class.java)
-    }
-
-    @Singleton
-    @Provides
-    fun providesDomainErrorFactory(): DomainErrorFactory {
-        return DomainErrorFactory
     }
 }

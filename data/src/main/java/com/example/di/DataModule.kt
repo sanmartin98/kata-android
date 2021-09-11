@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.di
+package com.example.di
 
 import com.example.data.datasource.remote.BookRemoteDataSource
 import com.example.data.datasource.remote.BookRemoteSource

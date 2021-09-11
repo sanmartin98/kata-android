@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.cornershop.android.kata.cornerbook.databinding.RowBookBinding
-import com.cornershop.android.kata.cornerbook.domain.model.Book
 import com.cornershop.android.kata.cornerbook.presentation.ui.models.BookView
 
 class ListBookAdapter : RecyclerView.Adapter<ListBookAdapter.ViewHolder>() {

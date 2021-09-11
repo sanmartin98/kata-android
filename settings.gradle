@@ -1,2 +1,5 @@
-include ':kata-cornerbook-start', ':kata-cornerbook-final'
+include ':kata-cornerbook-start'
 rootProject.name = "Android Coding Dojo"
+include ':data'
+include ':logic'
+include ':commons'

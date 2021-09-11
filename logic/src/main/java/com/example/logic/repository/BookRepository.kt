@@ -1,8 +1,8 @@
-package com.cornershop.android.kata.cornerbook.domain.repository
+package com.example.logic.repository
 
-import com.cornershop.android.kata.cornerbook.commons.Either
 import com.example.data.error.UserErrorContainer
-import com.cornershop.android.kata.cornerbook.domain.model.Book
+import com.example.commons.Either
+import com.example.logic.model.Book
 
 interface BookRepository {
     suspend fun getBookList(): Either<UserErrorContainer, List<Book>>

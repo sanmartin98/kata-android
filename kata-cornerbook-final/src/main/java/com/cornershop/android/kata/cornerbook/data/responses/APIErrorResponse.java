@@ -3,7 +3,7 @@ package com.cornershop.android.kata.cornerbook.data.responses;
 import com.google.gson.annotations.SerializedName;
 
 import androidx.annotation.Nullable;
-import static com.cornershop.android.kata.cornerbook.data.commons.Utils.checkStringNotNullOrEmpty;
+import static com.example.data.commons.Utils.checkStringNotNullOrEmpty;
 
 public class APIErrorResponse {
 

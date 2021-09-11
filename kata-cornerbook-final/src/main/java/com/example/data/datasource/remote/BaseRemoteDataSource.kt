@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.datasource.remote
+package com.example.data.datasource.remote
 
 interface BaseRemoteDataSource<ApiDef>{
     fun getService(): ApiDef

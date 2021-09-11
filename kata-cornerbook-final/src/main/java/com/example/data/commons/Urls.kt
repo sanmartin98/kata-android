@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.commons
+package com.example.data.commons
 
 object Urls {
     const val BOOKS = "/api/v1/books"

@@ -1,13 +1,7 @@
 package com.cornershop.android.kata.cornerbook
 
 import android.app.Application
-import com.cornershop.android.kata.cornerbook.presentation.injection.Injection
+import dagger.hilt.android.HiltAndroidApp
 
-class BookApp: Application() {
-
-    override fun onCreate() {
-        super.onCreate()
-        Injection.init(this)
-    }
-
-}
+@HiltAndroidApp
+class BookApp: Application()

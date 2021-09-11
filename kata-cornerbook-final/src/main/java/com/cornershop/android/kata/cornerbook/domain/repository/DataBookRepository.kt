@@ -1,7 +1,7 @@
 package com.cornershop.android.kata.cornerbook.domain.repository
 
 import com.cornershop.android.kata.cornerbook.commons.Either
-import com.cornershop.android.kata.cornerbook.data.datasource.remote.BookRemoteSource
+import com.example.data.datasource.remote.BookRemoteSource
 import com.cornershop.android.kata.cornerbook.data.error.UserErrorContainer
 import com.cornershop.android.kata.cornerbook.domain.mapper.BookMapper
 import com.cornershop.android.kata.cornerbook.domain.model.Book

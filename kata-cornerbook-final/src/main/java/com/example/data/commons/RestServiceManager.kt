@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.commons
+package com.example.data.commons
 
 import android.util.Log
 import com.google.gson.GsonBuilder

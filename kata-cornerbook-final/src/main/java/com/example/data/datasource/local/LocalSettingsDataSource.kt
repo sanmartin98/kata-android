@@ -1,9 +1,9 @@
-package com.cornershop.android.kata.cornerbook.data.datasource.local
+package com.example.data.datasource.local
 
 import android.content.SharedPreferences
-import com.cornershop.android.kata.cornerbook.data.datasource.local.LocalSettingsDataSource.Key.PREFERENCE_LOCATION_REPORTER
-import com.cornershop.android.kata.cornerbook.data.datasource.local.PreferenceConstants.PREFERENCE_LOCATION_REPORTER_NEW
-import com.cornershop.android.kata.cornerbook.data.datasource.local.PreferenceConstants.PREFERENCE_LOCATION_REPORTER_OLD
+import com.example.data.datasource.local.LocalSettingsDataSource.Key.PREFERENCE_LOCATION_REPORTER
+import com.example.data.datasource.local.PreferenceConstants.PREFERENCE_LOCATION_REPORTER_NEW
+import com.example.data.datasource.local.PreferenceConstants.PREFERENCE_LOCATION_REPORTER_OLD
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

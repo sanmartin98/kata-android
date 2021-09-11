@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.cornershop.android.kata.cornerbook.commons.SingleValue
 import com.cornershop.android.kata.cornerbook.commons.setSingleValue
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError
+import com.example.logic.commons.HandledError
 import com.cornershop.android.kata.cornerbook.domain.model.Book
 import com.cornershop.android.kata.cornerbook.domain.usecases.GetBooksUseCase
 import com.cornershop.android.kata.cornerbook.presentation.bases.BaseViewModel

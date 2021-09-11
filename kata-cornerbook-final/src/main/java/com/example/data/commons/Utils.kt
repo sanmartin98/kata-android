@@ -1,9 +1,7 @@
-package com.cornershop.android.kata.cornerbook.data.commons
+package com.example.data.commons
 
 import java.math.BigInteger
 import java.security.MessageDigest
-import java.text.SimpleDateFormat
-import java.util.Date
 
 object Utils {
     @JvmStatic

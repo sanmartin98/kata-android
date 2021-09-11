@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.error
+package com.example.data.error
 
 import com.example.data.responses.APIErrorResponse
 

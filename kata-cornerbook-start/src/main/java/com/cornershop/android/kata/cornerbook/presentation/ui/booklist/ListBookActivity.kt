@@ -1,24 +1,26 @@
 package com.cornershop.android.kata.cornerbook.presentation.ui.booklist
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.lifecycle.observe
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cornershop.android.kata.cornerbook.commons.observeSingleValue
 import com.cornershop.android.kata.cornerbook.databinding.ActivityListBookBinding
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError
+import com.example.logic.commons.HandledError
 import com.cornershop.android.kata.cornerbook.presentation.ui.createbook.CreateBookActivity
 import com.cornershop.android.kata.cornerbook.presentation.ui.models.BookView
 import com.cornershop.android.kata.cornerbook.presentation.utils.DialogUtils
+import com.example.commons.observeSingleValue
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ListBookActivity : AppCompatActivity() {
     private val binding: ActivityListBookBinding by lazy { ActivityListBookBinding.inflate(layoutInflater) }
     private lateinit var bookAdapter: ListBookAdapter
-    private val viewModel: ListBookViewModel by viewModels { ListBookViewModelFactory }
+    private val viewModel: ListBookViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

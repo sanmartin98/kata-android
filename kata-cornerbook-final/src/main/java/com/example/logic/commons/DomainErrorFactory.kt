@@ -1,17 +1,17 @@
-package com.cornershop.android.kata.cornerbook.domain.commons
+package com.example.logic.commons
 
 import com.cornershop.android.kata.cornerbook.data.error.GenericUserErrorContainer
 import com.cornershop.android.kata.cornerbook.data.error.HTTPUserErrorContainer
 import com.cornershop.android.kata.cornerbook.data.error.UserError
 import com.cornershop.android.kata.cornerbook.data.error.UserErrorContainer
-import com.cornershop.android.kata.cornerbook.domain.commons.ApiErrorCode.BOOK_NOT_VALID
-import com.cornershop.android.kata.cornerbook.domain.commons.ApiErrorCode.BOOK_STORAGE_EMPTY
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError.BookNotValidError
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError.BookStorageEmptyError
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError.CommonError
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError.ExceptionError
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError.NetworkError
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError.UnhandledError
+import com.example.logic.commons.ApiErrorCode.BOOK_NOT_VALID
+import com.example.logic.commons.ApiErrorCode.BOOK_STORAGE_EMPTY
+import com.example.logic.commons.HandledError.BookNotValidError
+import com.example.logic.commons.HandledError.BookStorageEmptyError
+import com.example.logic.commons.HandledError.CommonError
+import com.example.logic.commons.HandledError.ExceptionError
+import com.example.logic.commons.HandledError.NetworkError
+import com.example.logic.commons.HandledError.UnhandledError
 
 //Everytime you add this class as Error, remember add to ErrorManager and CustomLogger.logHandledError
 sealed class HandledError {

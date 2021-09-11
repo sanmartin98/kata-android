@@ -5,8 +5,8 @@ import androidx.lifecycle.Observer
 import com.cornershop.android.kata.cornerbook.CoroutineTestRule
 import com.cornershop.android.kata.cornerbook.commons.Either
 import com.cornershop.android.kata.cornerbook.commons.SingleValue
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError.UnhandledError
+import com.example.logic.commons.HandledError
+import com.example.logic.commons.HandledError.UnhandledError
 import com.cornershop.android.kata.cornerbook.domain.model.Book
 import com.cornershop.android.kata.cornerbook.domain.usecases.GetBooksUseCase
 import com.cornershop.android.kata.cornerbook.presentation.models.ListBookState

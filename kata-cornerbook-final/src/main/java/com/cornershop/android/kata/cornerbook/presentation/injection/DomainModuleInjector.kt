@@ -1,6 +1,6 @@
 package com.cornershop.android.kata.cornerbook.presentation.injection
 
-import com.cornershop.android.kata.cornerbook.domain.commons.DomainErrorFactory
+import com.example.logic.commons.DomainErrorFactory
 import com.cornershop.android.kata.cornerbook.domain.mapper.BookMapper
 import com.cornershop.android.kata.cornerbook.domain.repository.BookRepository
 import com.cornershop.android.kata.cornerbook.domain.repository.DataBookRepository

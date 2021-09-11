@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.commons
+package com.example.commons
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData

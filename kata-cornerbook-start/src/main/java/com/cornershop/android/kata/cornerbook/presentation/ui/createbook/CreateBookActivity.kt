@@ -9,18 +9,16 @@ import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.observe
 import com.cornershop.android.kata.cornerbook.R
-import com.cornershop.android.kata.cornerbook.commons.observeSingleValue
 import com.cornershop.android.kata.cornerbook.databinding.ActivityCreateBookBinding
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError
+import com.example.logic.commons.HandledError
 import com.cornershop.android.kata.cornerbook.presentation.utils.DialogUtils
+import com.example.commons.observeSingleValue
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class CreateBookActivity : AppCompatActivity() {
-    private val binding: ActivityCreateBookBinding by lazy {
-        ActivityCreateBookBinding.inflate(
-            layoutInflater
-        )
-    }
-    private val viewModel: CreateBookViewModel by viewModels { CreateBookViewModelFactory }
+    private val binding: ActivityCreateBookBinding by lazy { ActivityCreateBookBinding.inflate(layoutInflater) }
+    private val viewModel: CreateBookViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

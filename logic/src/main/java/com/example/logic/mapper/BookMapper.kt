@@ -1,8 +1,8 @@
-package com.cornershop.android.kata.cornerbook.domain.mapper
+package com.example.logic.mapper
 
 import com.example.data.request.BookRequest
 import com.example.data.responses.BookResponse
-import com.cornershop.android.kata.cornerbook.domain.model.Book
+import com.example.logic.model.Book
 import javax.inject.Inject
 
 class BookMapper @Inject constructor() {

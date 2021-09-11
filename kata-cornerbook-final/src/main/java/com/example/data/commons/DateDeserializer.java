@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.commons;
+package com.example.data.commons;
 
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;

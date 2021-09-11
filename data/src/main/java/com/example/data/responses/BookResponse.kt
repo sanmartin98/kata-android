@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.responses
+package com.example.data.responses
 
 import com.google.gson.annotations.SerializedName
 

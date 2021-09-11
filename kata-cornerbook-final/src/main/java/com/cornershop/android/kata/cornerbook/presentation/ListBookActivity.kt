@@ -7,7 +7,7 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.cornershop.android.kata.cornerbook.commons.observeSingleValue
 import com.cornershop.android.kata.cornerbook.databinding.ActivityListBookBinding
-import com.cornershop.android.kata.cornerbook.domain.commons.HandledError
+import com.example.logic.commons.HandledError
 import com.cornershop.android.kata.cornerbook.presentation.models.ListBookState
 import com.cornershop.android.kata.cornerbook.presentation.models.ListBooksEvents
 import com.cornershop.android.kata.cornerbook.presentation.models.ListBooksViewStates

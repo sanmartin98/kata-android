@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.commons
+package com.example.commons
 
 sealed class Either<out ErrorType, out ResultType> {
     class Left<ErrorType>(val error: ErrorType) : Either<ErrorType, Nothing>()
@@ -30,7 +30,8 @@ sealed class Either<out ErrorType, out ResultType> {
     }
 
     suspend fun <NewErrorType, NewResultType> concat(function: suspend (ResultType) -> Either<NewErrorType, NewResultType>,
-                                                     errorTransformation: (error: ErrorType) -> Either<NewErrorType, Nothing>): Either<NewErrorType, NewResultType> {
+                                                     errorTransformation: (error: ErrorType) -> Either<NewErrorType, Nothing>
+    ): Either<NewErrorType, NewResultType> {
         return when (this) {
             is Right -> function(this.value)
             is Left -> errorTransformation(error)

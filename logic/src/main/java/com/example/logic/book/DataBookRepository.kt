@@ -1,10 +1,10 @@
-package com.cornershop.android.kata.cornerbook.domain.book
+package com.example.logic.book
 
-import com.cornershop.android.kata.cornerbook.commons.Either
 import com.example.data.datasource.remote.BookRemoteSource
 import com.example.data.error.UserErrorContainer
 import com.example.logic.mapper.BookMapper
-import com.cornershop.android.kata.cornerbook.domain.model.Book
+import com.example.commons.Either
+import com.example.logic.model.Book
 import com.example.logic.repository.BookRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

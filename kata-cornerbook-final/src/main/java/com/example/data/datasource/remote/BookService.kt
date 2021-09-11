@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.datasource.remote
+package com.example.data.datasource.remote
 
 import com.example.data.commons.Urls
 import com.cornershop.android.kata.cornerbook.data.responses.BookResponse

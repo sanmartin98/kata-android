@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.error;
+package com.example.data.error;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

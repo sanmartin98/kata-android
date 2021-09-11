@@ -1,4 +1,4 @@
-package com.cornershop.android.kata.cornerbook.data.datasource.local
+package com.example.data.datasource.local
 
 import android.content.SharedPreferences
 
